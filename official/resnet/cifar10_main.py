@@ -152,7 +152,6 @@ def input_fn(is_training, data_dir, batch_size, num_epochs=1):
 # Running the model
 ###############################################################################
 class Cifar10Model(resnet.Model):
-
   def __init__(self, resnet_size, data_format=None):
     """These are the parameters that work for CIFAR-10 data.
     """
